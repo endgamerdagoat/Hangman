@@ -33,7 +33,6 @@ int main() {
         words.push_back(line);
     }
 
-    string word;
     int random = rand() % words.size();
     word = words[random];
 
