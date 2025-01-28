@@ -12,7 +12,7 @@ int main() {
     srand(time(0));
     int line_til = rand() % 196 + 1;
     cout << line_til << endl;
-    file.open("/Users/raghuram/Desktop/coding/c_c++/words.txt");
+    file.open("words.txt");
 
 
     if(file.fail()) {
